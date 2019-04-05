@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:gridSpec="1|8|#0093eeff|K:#008080ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r"
+    >
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="180sp"
+        android:layout_height="45sp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:textSize="11sp"
+        android:id="@+id/editText1" />
+    <TextView
+        android:layout_width="180sp"
+        android:layout_height="45sp"
+        android:textSize="11sp"
+        android:id="@+id/textView1"
+        android:layout_below="@+id/editText1"
+    />
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/gridLayout1"
+        android:rowCount="5"
+        android:columnCount="4"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginLeft="0.0dp"
+        android:textAlignment="center"
+        >
+        <Button
+            android:text="7"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_7" />
+        <Button
+            android:text="8"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_8" />
+        <Button
+            android:text="9"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_9"
+        />
+        <Button
+            android:text="*"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_mul"
+        />
+        <Button
+            android:text="4"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:id="@+id/button_4" />
+        <Button
+            android:text="5"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_5" />
+        <Button
+            android:text="6"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_6" />
+        <Button
+            android:text="/"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_div" />
+        <Button
+            android:text="1"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_1" />
+        <Button
+            android:text="2"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_2" />
+        <Button
+            android:text="3"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_3" />
+        <Button
+            android:text="+"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_add" />
+        <Button
+            android:text="0"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_0" />
+        <Button
+            android:text="."
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_dot"
+            />
+        <Button
+            android:text="="
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_eql" 
+        />
+        <Button
+            android:text="-"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_minus" 
+        />
+        <Button
+            android:text="C"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_c"
+            />
+        <Button
+            android:text="CE"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_ce" 
+        />
+        <Button
+            android:text="DEL"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_del" 
+        />
+        <Button
+            android:text="%"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:textSize="11sp"
+            android:id="@+id/button_per" />
+
+
+
+
+
+
+    </GridLayout>
+
+</RelativeLayout>
