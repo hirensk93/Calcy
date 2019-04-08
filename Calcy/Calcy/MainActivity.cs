@@ -89,6 +89,7 @@ namespace Calcy
                     textView.Text = ans.ToString();
                     
                 }
+                v1 = Convert.ToDecimal(text.Text);
                 text.Text = "";
 
             };
@@ -115,6 +116,7 @@ namespace Calcy
                     
 
                 }
+                v1 = Convert.ToDecimal(text.Text);
                 text.Text = "";
             };
             Button mul = FindViewById<Button>(Resource.Id.button_mul);
@@ -140,6 +142,7 @@ namespace Calcy
                      
 
                   }
+                  v1 = Convert.ToDecimal(text.Text);
                   text.Text = "";
 
               };
@@ -173,6 +176,7 @@ namespace Calcy
                         Toast.MakeText(Android.App.Application.Context, "Divide by Zero"+ae.StackTrace.ToString(), ToastLength.Long).Show();
                     }
                 }
+                v1 = Convert.ToDecimal(text.Text);
                 text.Text = "";
             };
             Button eql = FindViewById<Button>(Resource.Id.button_eql);
@@ -180,6 +184,7 @@ namespace Calcy
               {
                   ch = 5;
                   textView.Text = ans.ToString();
+                  v1 = Convert.ToDecimal(text.Text);
                   text.Text = "";
 
 
@@ -191,7 +196,7 @@ namespace Calcy
                 if (text.Text.Equals(""))
                 {
                     Toast.MakeText(Android.App.Application.Context, "Please Enter Something", ToastLength.Long).Show();
-                    textView.Text = "Please Enter Something";
+                   
                 }
                 else if (textView.Text.Equals(""))
                 {
